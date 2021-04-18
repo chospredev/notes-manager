@@ -1,0 +1,26 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "Notes app developed with MERN stack.",
+  "main": "server.js",
+  "scripts": {
+    "devRun": "nodemon server.js"
+  },
+  "keywords": [
+    "notes",
+    "todos",
+    "todo",
+    "note"
+  ],
+  "author": "Abdul-Kerim Sprečo",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  }
+}

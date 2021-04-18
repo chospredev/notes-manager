@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-title {
+    margin-bottom: 15px;
+    color: darkslateblue;
+}
+
+.empty-notesList {
+    color: darkred;
+}
+
+.notes-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noteTitleInput, .noteContentInput {
+    margin-bottom: 15px;
+    width: 400px;
+    height: 35px;
+    text-indent: 20px;
+    outline: none;
+    border: 1px solid #d3d3d3;
+}
+
+.noteTitleInput:focus, .noteContentInput:focus {
+    border: 1px solid darkslateblue;
+}
+
+.noteButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px !important;
+    margin-bottom: 2em;
+    padding: 7px 0;
+    outline: none;
+    border: none;
+    color: white;
+    background: darkslateblue;
+    transition: 250ms;
+}
+
+.noteButton:hover {
+    color: black;
+    background-color: rgba(72, 61, 139, 0.4);
+}
+
+.notesList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(72, 61, 139, 0.2);
+    width: 100%;
+}
+
+.noteTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    border-bottom: 1px solid darkslateblue;
+    color: darkslateblue;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.noteContent {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0;
+    color: darkslateblue;
+    border-bottom: 3px solid white;
+}
